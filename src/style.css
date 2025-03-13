@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ffe6e6;
+    margin: 0;
+    overflow: hidden;
+}
+
+.game-container {
+    text-align: center;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    font-size: 1.5rem;
+    background: none;
+    border: 2px solid #ff4d4d;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #ff4d4d;
+    color: white;
+}
+
+#game-area {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-color: #fff;
+    border: 2px solid #ff4d4d;
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+.falling-heart {
+    position: absolute;
+    top: -50px;
+    font-size: 2rem;
+    cursor: pointer;
+    animation: fall linear infinite;
+}
+
+@keyframes fall {
+    0% {
+        top: -50px;
+    }
+    100% {
+        top: 100%;
+    }
+}
