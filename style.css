@@ -4,7 +4,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #ffe6e6;
+    background-color: #f6b8b8;
     margin: 0;
     overflow: hidden;
 }
@@ -27,7 +27,7 @@ button {
 }
 
 button:hover {
-    background-color: #ff4d4d;
+    background-color: #f48787;
     color: white;
 }
 
@@ -35,6 +35,8 @@ button:hover {
     position: relative;
     width: 100%;
     height: 400px;
+    background-image: url('https://scontent.fhan17-1.fna.fbcdn.net/v/t39.30808-6/452922679_1789637811567047_3333055731039966538_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=833d8c&_nc_ohc=CHA99pPemz4Q7kNvgFHO3cD&_nc_oc=AdhU1F8eHanGDFVNWPh_uNxVRgOULjo61ZVjQSrcEkH43QaM7HJZ5L73sHNAU-AqaCU&_nc_zt=23&_nc_ht=scontent.fhan17-1.fna&_nc_gid=AuKwphgiGuZrzVuuO9K6P_u&oh=00_AYHLcn5eK1Sm84DyUQ-F17YDcUZ56hxlZFJl3KC3O09rdg&oe=67D8DB2C');
+    background-size: cover;
     background-color: #fff;
     border: 2px solid #ff4d4d;
     margin-top: 20px;
