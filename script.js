@@ -19,7 +19,7 @@ function createFallingHeart() {
     const heart = document.createElement('div');
     heart.classList.add('falling-heart');
     heart.innerText = '❤️';
-    heart.style.left = Math.random() * 100 + 'vw';
+    heart.style.left = Math.random() * (document.getElementById('game-area').clientWidth - 50) + 'px'; // Giới hạn vị trí trái tim
     heart.style.animationDuration = Math.random() * 3 + 2 + 's'; // Random duration between 2s and 5s
     heart.addEventListener('click', function () {
         heart.remove();
